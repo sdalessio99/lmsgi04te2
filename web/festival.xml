@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="festival.xsl"?>
+<!-- ******************************************************************************************************************
+Autor: Sara D'Alessio
+Asignatura: LMGSI
+Unidad: UD 4
+Tarea: Tarea evaluativa 2. XSLT. (60%)
+Enlace autoevaluacion: https://docs.google.com/document/d/1uQzfRYKZVeqswt9VgaedkrHDL35cP650fsKpq8XUlK8/edit?usp=sharing
+
+Copia del contenido del XML principal para enlazarlo a festival.xsl
+********************************************************************************************************************-->
+<reservaeventos>
+    <!--   obras de teatro   -->
+    <teatro>
+        <obra>Todas las hijas</obra>
+        <actores>
+            <actor>
+                <nombre>Ane</nombre>
+                <apellido>Gabarain</apellido>
+            </actor>
+            <actor>
+                <nombre>Gemma</nombre>
+                <apellido>Martínez</apellido>
+            </actor>
+            <actor>
+                <nombre>Maribel</nombre>
+                <apellido>Salas</apellido>
+            </actor>
+            <actor>
+                <nombre>Sol</nombre>
+                <apellido>Maguna</apellido>
+            </actor>  
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Andrés</nombredir>
+                <apellidodir>Lima</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:30:00</duracion>
+        <fechahora dia="2023-01-24" hora="19:30:00">Arriaga Antzokia</fechahora>
+        <precio>20.5</precio>
+        <plazas>1200</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Lehendakari gaia</obra>
+        <actores>
+            <actor>
+                <nombre>Iker</nombre>
+                <apellido>Galartza</apellido>
+            </actor> 
+            <actor>
+                <nombre>Zuhaitz</nombre>
+                <apellido>Gurrutxaga</apellido>
+            </actor>
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Begoña</nombredir>
+                <apellidodir>Bilbao</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:15:00</duracion>
+        <fechahora dia="2023-01-31" hora="17:00:00">Teatro Principal</fechahora>
+        <precio>32</precio>
+        <plazas>900</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Todas las nietas</obra>
+        <actores>
+            <actor>
+                <nombre>Maribel</nombre>
+                <apellido>Salas</apellido>
+            </actor> 
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Andrés</nombredir>
+                <apellidodir>Lima</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:30:00</duracion>
+        <fechahora dia="2023-01-19" hora="19:30:00">Arriaga Antzokia</fechahora>
+        <precio>10.5</precio>
+        <plazas>1200</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Hobe ixilik!</obra>
+        <actores>
+            <actor>
+                <nombre>Itziar</nombre>
+                <apellido>Ituño</apellido>
+            </actor> 
+            <actor>
+                <nombre>Ramon</nombre>
+                <apellido>Agirre</apellido>
+            </actor>
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Begoña</nombredir>
+                <apellidodir>Bilbao</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:15:00</duracion>
+        <fechahora dia="2023-01-26" hora="19:30:00">Teatro Principal</fechahora>
+        <precio>16</precio>
+        <plazas>900</plazas>   
+    </teatro>
+    
+    
+
+    <!--   restaurantes   -->
+    <restaurante>
+        <nombrerestaurante>El clarete</nombrerestaurante>
+        <diadescanso>Domingo</diadescanso>
+        <horario>
+            <horamanana>
+                <horamapertura>13:30:00</horamapertura>
+                <horamcierre>15:30:00</horamcierre>
+            </horamanana>
+            <horatarde>
+                <horatapertura>21:30:00</horatapertura>
+                <horatcierre>23:00:00</horatcierre>
+            </horatarde>
+        </horario>   
+        <direccion>C/ Cercas Bajas 18</direccion>
+        <menu tipo="degustacion">
+            <plato>Carpaccio de alcachofa, aceituna negra y ensalada</plato>
+            <plato>Crema de foie, salsa de vino dulce y quicos</plato>
+            <plato>Yema de huevo de caserío confitada</plato>
+            <plato>Chipirón relleno y a la parrilla con salsa de cebolla</plato>
+            <plato>Cochinillo confitado y frito acompañado de crema de mango</plato>
+            <plato>Yoghourt, menta y maracuya</plato>
+            <plato>Crema de chocolate, aceite de oliva virgen, pan y sal</plato>
+        </menu>
+        <menu tipo="menu del día">
+            <plato>Carpaccio de alcachofa, aceituna negra y ensalada</plato>
+            <plato>Chipirón relleno y a la parrilla con salsa de cebolla</plato>
+            <plato>Yoghourt, menta y maracuya</plato>
+        </menu>
+        <ciudad postal="CP01001">Vitoria</ciudad>
+        <mesas>90</mesas>
+        <informacion tipo="web">http://www.elclareterestaurante.com/</informacion>
+    </restaurante>
+    <restaurante>
+        <nombrerestaurante>Eneko</nombrerestaurante>
+        <diadescanso>Domingo</diadescanso>
+        <horario>
+            <horamanana>
+                <horamapertura>13:30:00</horamapertura>
+                <horamcierre>15:30:00</horamcierre>
+            </horamanana>
+            <horatarde>
+                <horatapertura>21:30:00</horatapertura>
+                <horatcierre>23:00:00</horatcierre>
+            </horatarde>
+        </horario>   
+        <direccion>C/ Cercas Bajas 18</direccion>
+        <menu tipo="degustacion">
+            <plato>Brioche casero</plato>
+            <plato>Mantequilla y perejil</plato>
+            <plato>Macarrón de tomate</plato>
+            <plato>Sorbete de Bloody Mary</plato>
+            <plato>Tartar vegetal</plato>
+            <plato>Setas “al ajillo”</plato>
+            <plato>Brownie de café, helado de toffe y leche</plato>
+        </menu>
+        <menu tipo="fin de semana">
+            <plato>Yema de huevo de caserío sobre estofado de trigo y jugo de pimientos asados al carbón</plato>
+            <plato>Cochinillo confitado y lacado, láminas de champiñones, pesto y gnoquis de Idiazabal</plato>
+            <plato>Crema de goxua a mi estilo con helado de toffee</plato>
+        </menu>
+        <ciudad postal="CP48560">Larrabetzu</ciudad>
+        <mesas>90</mesas>
+        <informacion tipo="web">https://eneko.restaurant/</informacion>
+    </restaurante>
+
+    <!--   festival   -->
+    <festival>
+        <nombrefesti>BBKLive</nombrefesti>
+        <conciertos>
+            <concierto>
+                <grupo tipomusica="metal">Metallica</grupo>
+                <fecha>2021-05-27</fecha>
+                <hora>09:00:00</hora>
+                <carpa>Zona Anboto</carpa>
+            </concierto>
+            <concierto>
+                <grupo tipomusica="rock">R.E.M</grupo>
+                <fecha>2021-05-28</fecha>
+                <hora>22:00:00</hora>
+                <carpa>Zona Gorbea</carpa>
+            </concierto>
+        </conciertos>
+        <lugar>Kobeta</lugar>
+        <aforo>12000</aforo>
+    </festival>
+    <festival>
+        <nombrefesti>Azkena</nombrefesti>
+        <conciertos>
+            <concierto>
+                <grupo tipomusica="rock">Metallica</grupo>
+                <fecha>2021-05-27</fecha>
+                <hora>09:00:00</hora>
+                <carpa>Zona Anboto</carpa>
+            </concierto>
+            <concierto>
+                <grupo tipomusica="pop">R.E.M</grupo>
+                <fecha>2021-05-28</fecha>
+                <hora>22:00:00</hora>
+                <carpa>Zona Gorbea</carpa>
+            </concierto>
+        </conciertos>
+        <lugar>Gasteiz</lugar>
+        <aforo>10000</aforo>
+    </festival>
+</reservaeventos>
