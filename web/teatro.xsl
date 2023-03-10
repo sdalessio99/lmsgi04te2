@@ -36,7 +36,7 @@ con precio menor de 20€ se mostrarán subrayadas.
 				<h1>PROXIMAS OBRAS DE TEATRO</h1>
 				<ul>
 					<!-- Seleccion de las obras a las que aplicar la plantilla -->
-                    <xsl:apply-templates select="teatro/fechahora[contains(@dia , '2023-01')]/..">
+                    <xsl:apply-templates select="teatro/fechahora[contains(@dia , '2023-01')]">
 						<!-- Orden de los elementos usando el atributo dia en orden descendiente -->
                         <xsl:sort select="fechahora/@dia" order="descending"/>
                     </xsl:apply-templates>
